@@ -53,7 +53,7 @@
             grid-column: 3/4;
 
             margin-left: 40rem;
-            margin-top: 80rem;
+            margin-top: 130rem;
             padding: 30rem;
         }
 
@@ -69,15 +69,16 @@
 
 
     @include respond-to('large'){
-        grid-template-columns: 1fr min-content 1fr max-content 1fr;
+        grid-template-columns: 1fr min-content 1fr max-content 1fr;    
 
         &__text {
             grid-column: 4/5;
             height: 40em;
-            font-size: 1.4em;
+            font-size: 1.9em;
+            margin-top: 160px;
 
             h2{
-                font-size: 1.4em;
+                font-size: 1.2em;
             }
 
             
@@ -90,6 +91,7 @@
         &__bigpic {
             width: 26em;
             height: 34em;
+            margin-top: 320px;
         }
     }
     

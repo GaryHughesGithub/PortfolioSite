@@ -39,6 +39,14 @@ body{
         li {
             margin:30px 0;
         }
+
+    }
+
+    &__icons li:hover {
+        transition: 0.2s;
+        scale: 1.1;
+        text-decoration: 2.5px underline solid var(--highlight);
+        text-underline-offset: 12px;
     }
 
     &__icons.active {
@@ -99,10 +107,10 @@ body{
             box-shadow: none;
             
             padding: 40rem;
-            font-size: 20rem;
+            font-size: 25rem;
 
             li{
-                margin-left: 30rem;
+                margin-left: 80rem;
                 margin-right: 50rem;
                 margin-top: 0;
                 margin-bottom: 0;
